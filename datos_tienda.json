@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "id":"1",
+      "nombre": "canelones",
+      "descripcion": "canelones vegetales",
+      "img": "canelones.jpg",
+      "precio": 2,
+      "cantidad": 4
+    }
+  ],
+  "clientes": [],
+  "Ventas": [],
+  "usuarios": [
+    {
+      "nombre": "",
+      "password": ""
+    },
+    {
+      "nombre": "Jordi",
+      "password": "78d8045d684abd2eece923758f3cd781489df3a48e1278982466017f"
+    }
+  ],
+  "contador":4
+}

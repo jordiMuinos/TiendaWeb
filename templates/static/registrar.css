@@ -1,0 +1,41 @@
+
+#registrar{
+    width: 30%;
+    border: 1px solid white;
+    height: 40%;
+}
+body{
+    border: none;
+    height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#registrar *{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+#registrar input{
+    line-height: 30px;
+    font-size: 25;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+#button{
+    line-height: 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: green;
+    color: white
+}
+label{
+    color: white
+}

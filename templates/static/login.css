@@ -1,0 +1,48 @@
+
+#login{
+    width: 30%;
+    border: 1px solid white;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    height: 40%;
+    border-radius: 5px;
+}
+body{
+    border: none;
+    height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#login *{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+#login input{
+    line-height: 30px;
+    font-size: 25;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+.button{
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: grey !important;
+    color: white;
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+.link{
+    color: white;
+}

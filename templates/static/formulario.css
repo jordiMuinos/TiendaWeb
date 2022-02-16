@@ -1,0 +1,42 @@
+*{
+    border:1px solid black;
+}
+
+form *{
+    display: block;
+    margin-top: 4px;
+}
+
+form input,form textarea{
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+form label{
+    font-size: 20px;
+    font-weight: bold;
+}   
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=submit]{
+    background-color: Black;
+    color: white;
+}
+
+.producto{
+    display: flex;
+}
+.tituloProducto{
+    height: 30px;
+}
+.producto img{
+    height: 200px;
+    width: 200px;
+}
+.btnBorrar{
+    width: 50px !important;
+}

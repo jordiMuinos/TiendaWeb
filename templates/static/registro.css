@@ -1,0 +1,13 @@
+
+#registro *{
+display: block;
+font-size: 18px;
+margin: 10px 0 5px 10px;
+
+}
+
+#registro{
+    width: 40%;
+    border: 2px ;
+    border-radius: 10px;
+}
